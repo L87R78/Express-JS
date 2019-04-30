@@ -1,0 +1,51 @@
+
+npm install nodemon -g
+nodemon index.js
+
+//-----------------------------------
+npm insall handlebars --save-exact
+npm insall handlebars
+npm install --save express-handlebars
+
+//-----------------------------------
+
+mongod --dbpath B:\ExpressJS\mongoData //for example
+
+//-----------------------------------
+
+npm install --save --save-exact express
+
+//-----------------------------------
+
+for intellisense
+
+npm install typings --g
+typings install express --save
+
+----------------------------------------
+
+npm install cookie-parser --save --save-exact
+
+-------------------------------------------
+
+npm install express-session --save --save-exact
+npm install express --save --save-exact
+
+------------------------------------------------
+
+npm i -E body-parser
+npm install body-parser --save --exact
+
+-------------------------------
+npm install express-generator -g
+express --view=hbs
+
+---------------------------------------
+
+arrow function лексикално наследява This-a
+нормалната function взима Thisa-a от мястото от където се извика
+
+-----------------------------------------------
+
+npm install typings --g
+typings install express --save

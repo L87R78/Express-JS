@@ -1,0 +1,15 @@
+ <h3>Items in Cart: {{myProductsLength}}</h3>
+<h1>Your Cart</h1>
+
+<div>
+    {{#each myProducts}}
+    <div class="product">
+        <h3>Name: {{name}}</h3>
+        <p>Price : {{cost}}</p>
+        <a href="/delete/{{@index}}">Delete</a>
+    </div>
+    {{/each}}
+</div>
+<h3>Sum in Cart: {{sumCost}}</h3>
+
+<a href="/">Back to Shop</a>

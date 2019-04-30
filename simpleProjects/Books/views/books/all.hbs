@@ -1,0 +1,22 @@
+<div>
+    {{#each books}}
+    <div>
+        {{!-- <a href="/details/{{_id}}">{{imageUrl}}"</a> --}}
+        
+        <img class="cube" src="{{imageUrl}}">
+        {{!-- <p class="name">Author: {{author}}</p> --}}
+        {{!-- <p><span>ReleaseDate: </span>{{releaseDate}}</p> --}}
+        <p class="name">Title: {{title}}</p>
+        <p class="price">Price: {{price}}</p>
+        <a href="/details/{{_id}}" class="button">Details</a>
+        <a href="/change/{{_id}}" class="button">Change</a>
+        <a href="/delete/{{_id}}" class="button">Delete</a>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    {{/each}}
+</div>

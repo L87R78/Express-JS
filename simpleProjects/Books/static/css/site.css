@@ -1,0 +1,58 @@
+.menu ul {
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+header, footer {
+   text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+.error {
+    color: red;
+}
+
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+img.cube {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    color: black;
+    background: greenyellow
+}
+
+footer {
+    text-decoration: blue
+}
+
+.button {
+    padding: 8px 15px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+.price {
+    text-decoration: blanchedalmond
+}
+
+
+
+

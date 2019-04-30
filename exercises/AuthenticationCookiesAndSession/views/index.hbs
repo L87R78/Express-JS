@@ -1,0 +1,15 @@
+
+<h2>Welcome back {{username}}</h2>
+<h3>Items in Cart: {{numItem}}</h3>
+<a href="/myCarts">CheckOut</a>
+<br>
+<a href="/readSession">Read Session</a>
+<div>
+    {{#each products}}
+    <div class="product">
+        <h3>Name: {{name}}</h3>
+        <p>Price : {{cost}}</p>
+        <a href="/add/{{@index}}">Add to cart</a>
+    </div>
+    {{/each}}
+</div>
